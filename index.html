@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online | shopping</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+     header {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        font-family: arial;
+        align-items: center;
+    }
+    span{
+        margin-right: 10px;
+    }
+    
+    .logo {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .icon-con {
+        position: relative;
+    }
+    header span {
+        margin-left: 20px;
+    }
+    .h-round {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        justify-content: center;
+        top: -10px;
+        right: 39px;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 2fr 10fr;
+        font-family: arial;
+        height:450px;
+    }
+    nav{
+        margin-top: 20px;
+    }
+    main{
+        margin-top: 20px;
+    }
+    ol{
+        list-style: none;
+    }
+    li{
+        padding: 18px;
+        text-align: center;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        width: 120px;
+        font-size: 20px;
+        background-color: black;
+        border-radius: 15px;
+
+    }
+    iframe{
+        border:none;
+    }
+  
+    article {
+        color: white;
+        padding: 12px;
+        text-align: center;
+        background-color: black;
+        font-family: arial;
+        font-size: 15px;
+        word-spacing: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .bi-lightning-fill {
+        color: gold;
+    }
+footer {
+    font-family: arial;
+    background-color: black;
+    color: white;
+}
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    padding: 20px;
+    color: gray;
+    font-size: large;
+    font-family: Arial;
+}
+
+.footer-center h3,
+.footer-center h4 {
+    color: white;
+}
+.heading {
+    margin-bottom: 8px;
+ 
+}
+.comments-heading h2 {
+    margin-bottom: 20px;
+}
+.comments-stat{
+    color: gray;
+}   .footer-last {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid gray;
+    color: gray;
+}   
+
+.input {
+    display: inline-block;
+    padding: 20px 20px;
+    color: white;
+    background-color: rgb(55, 55, 55);
+    width: 300px;
+    text-align: start;
+    color: gray;
+    border-radius: 2px;
+}
+
+
+.footer-input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-subtitle {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-details {
+    padding: 10px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.footer-details div {
+    margin-bottom: 5px;
+}
+
+.footer-details h4 {
+    margin-bottom: 20px;
+}
+h2{
+        color: white;
+    }
+h4 {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: white;
+    }
+h1{
+        color: black;
+        font-weight: bold;
+        font-family: arial;
+    }
+.subscribe {
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Shopper.
+        </div>
+        <div class="content">
+            <span>Home</span>
+            <span>Catlog</span>
+            <span>Shop</span>
+            <span>Pages</span>
+            <span>Blog</span>
+            <span>Docs</span>
+        </div>
+        <div class="icon">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+            <span class="h-round">2</span>
+        </div>
+    </header>
+    <article>
+         <span class="bi-lightning-fill"></span>
+         <span>HAPPY HOLIDAY ON EVERYTHING</span>
+         <span class="bi-lightning-fill"></span>
+    </article>
+    <section>
+        <nav>
+            <ol>
+                <li> <a target="framebody" href="home.html" style="color: white;">Home</a></li>
+                <li> <a target="framebody" href="men.html" style="color: white;">Men</a></li>
+                <li> <a target="framebody" href="women.html" style="color: white;">Women</a></li>
+                <li> <a target="framebody" href="kids.html" style="color: white;">Kids</a></li>
+                <li> <a target="framebody" href="electronics.html" style="color: white;">Electronics</a></li>
+            </ol>
+        </nav>
+        <main>
+            <iframe name="framebody" width="100%" height="500" src="home.html"> </iframe> 
+        </main>
+    </section>
+    <footer>
+        <div class="footer-title">
+            <h3>Want style Ideas and Treats?</h3>
+            <div class="footer-input">
+                <span class="input"> Enter Email * </span>
+                <button class="subscribe">subscribe</button>
+            </div>
+            <div class="footer-subtitle">
+                <div class="footer-details">
+                    <h2>Shopper.</h2>
+                    <aside>
+                        <span class="bi bi-facebook"></span>
+                        <span class="bi bi-youtube"></span>
+                        <span class="bi bi-twitter"></span>
+                        <span class="bi bi-instagram"></span>
+                        <span class="bi bi-medium"></span>
+                    </aside>
+                </div>
+                <div class="footer-details">
+                    <h4>SUPPORT</h4>
+                    <div>Contact Us</div>
+                    <div>FAQs</div>
+                    <div>Size Guide</div>
+                    <div>Shopping & Returns</div>
+
+
+                </div>
+                <div class="footer-details">
+                    <h4>SHOP</h4>
+                    <div>Men's Shopping</div>
+                    <div>Women's Shopping</div>
+                    <div>Kid's Shopping</div>
+                    <div>Electronics</div>
+                    <div>Discount</div>
+                </div>
+                <div class="footer-details">
+                    <h4>COMPANY</h4>
+                    <div>Our Story</div>
+                    <div>Careers</div>
+                    <div>Terms & Condition</div>
+                    <div>Privacy & Cookie policy</div>
+
+                </div>
+                <div class="footer-details">
+                    <h4>CONTACT</h4>
+                    <div>1-222-222-0213</div>
+                    <div>1-222-222-0213</div>
+                    <div>1-222-222-0213</div>
+                    <div>help@shopper.com</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-last">
+            <p>© 2019 All rights reserved. Designed by Ruchi</p>
+            <img width="50%" src="/firstClass/public/images/flip-cart-svg.svg" alt="">
+        </div>
+        </div>
+
+    </footer>
+</body>
+</html>
